@@ -1,2 +1,1 @@
-# BIOINFORMATICS
-learning about bioinformatics
+# 读后感相关代码
