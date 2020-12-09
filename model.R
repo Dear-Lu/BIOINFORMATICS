@@ -32,7 +32,7 @@ numb<-function(A,a,G,times,N){
     p2=a
     for(i in 1:G){
       
-        p1<-rbinom(1,2*n,p1)/(n*2) #A
+        p1<-rbinom(1,2*n,p1)/(n*2) #A 
         p2<-rbinom(1,2*n,p2)/(n*2)#a
         n<-(p1*p1*0.006+0.0012*2*p1*p2)*n*n/4
         M[m,i]<-n
